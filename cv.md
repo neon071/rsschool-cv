@@ -9,4 +9,4 @@
 
 *Interdum* et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam lorem vel venenatis mattis. Fusce imperdiet dolor eu felis lobortis, non eleifend felis sagittis. Etiam convallis at odio pellentesque sodales. Duis feugiat mi in enim scelerisque, hendrerit tempor urna vestibulum. Suspendisse libero justo, posuere bibendum nibh sit amet, porttitor tincidunt tortor. Mauris non arcu elementum, accumsan orci vel, malesuada sem. Nam fringilla lacus in magna elementum, eu bibendum ipsum tincidunt. 
 
-You can contact me via [Discord] (https://discord.com/users/N071#9594)
+You can contact me via [Discord](https://discord.com/users/N071#9594)
