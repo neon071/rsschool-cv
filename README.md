@@ -1,5 +1,5 @@
 # rsschool-cv
 
-https://neon071.github.io/rsschool-cv/cv
+https://neon071.github.io/rsschool-cv/
 
-Readme к модулю **CV#1. Markdown & Git**
+CV#2. HTML, CSS & Git Basics
