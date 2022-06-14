@@ -1,2 +1,27 @@
+html {
+  scroll-behavior: smooth; 
+}
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto';
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+h1 {
+	font-family: 'Roboto Mono';
+	font-weight: 500;
+}
+h2 {
+	font-family: 'Roboto Mono';
+	font-weight: 300;
+}
+.nav {
+
+}
+.nav-list {
+
 }
