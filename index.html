@@ -2,9 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Title</title>
-		<meta name="description" content="Alexander's CV">
-		<link rel="stylesheet" href="style.css">
+		<title>CV</title>
+		<link rel="stylesheet" href="./style.css">
 		<link rel="icon" href="./assets/favicon.ico">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,59 +14,93 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200;300;500&display=swap" rel="stylesheet">
+		<meta name="description" content="Alexander's CV">
 	</head>
 	<header>
-		<nav class="nav">
-			<ul class="nav-list">
-				<li><a href="#exp">Experience</a></li>
-				<li><a href="#edu">Education</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#code">Code</a></li>
-				<li><a href="#lang">Languages</a></li>
-			</ul>
-		</nav>
+		<div class="container">
+			<nav class="nav-link">
+				<ul class="nav-list">
+					<li><a href="#exp" id="link">Experience</a></li>
+					<li><a href="#edu" id="link">Education</a></li>
+					<li><a href="#skills" id="link">Skills</a></li>
+					<li><a href="#code" id="link">Code</a></li>
+					<li><a href="#lang" id="link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<main>
-		<img src="assets/ava-3.jpg" alt="Photo of Alexnder" style="width: 10em;">
-		<h1>Alexander Egorov</h1>
-		<p>Project Manager</p>
-		<p>👋Contacts:</p>
-		<ul>
-			<li><a href="mailto:mail@notreal.io<">mail@notreal.io</a></li>
-			<li><a href="https://discord.com/users/N071#9594" target="_blank">Discord</a></li>
-		</ul>
-		<p>I'm Project Manager with 5 years of expirience.</p>
-		<p>Right now I'm learning basics of front-end.</p>
-		<h2><a name="exp">💼 Work Experience</a></h2>
+		<div class="container">
+			<div class="profile">
+			<img src="assets/ava.jpg" alt="Photo of Alexnder" style="width: 10em; border-radius: 100px; box-shadow: 0 0 5px gray; :hover" class="profile-image">
+				<div class="profile-title">
+					<h1>Alexander Egorov</h1>
+					<p>Project Manager</p>
+				</div>
+			</div>
+				<div class="contact">
+					<b>👋 Contacts:</b>
+					<a href="mailto:mail@notreal.io<" id="link">mail@notreal.io</a> |
+					<a href="https://discord.com/users/N071#9594" target="_blank" id="link">Discord</a>
+				</div>
+			<hr>
+			<p>I am Project Manager with 5 years of expirience.</p>
+			<p>Right now I'm learning basics of front-end.</p>
+			<p>Moscow, Russia.</p>
+			<hr>
+			<h2><a name="exp">💼 Work Experience</a></h2>
 			<ul>
-				<li><a href="https://www.i-sit.ru/" target="_blank">www.i-sit.ru</a></li>
-				<li><a href="http://www.edem-mebel.ru/" target="_blank">www.edem-mebel.ru</a></li>
-				<li><a href="https://marrit.ru/" target="_blank">marrit.ru</a></li>
-				<li><a href="https://ergohumanshop.ru/" target="_blank">ergohumanshop.ru</a></li>
+				<p><b>As front-end developer:</b></p>
+				<li><a href="https://neon071.github.io/rsschool-cv/" target="_blank" id="link">CV</a></li>
+			</ul>
+			<ul>
+				<p><b>As Project Manager:</b></p>
+				<li><a href="https://www.i-sit.ru/" target="_blank" id="link">www.i-sit.ru</a></li>
+				<li><a href="http://www.edem-mebel.ru/" target="_blank" id="link">www.edem-mebel.ru</a></li>
+				<li><a href="https://marrit.ru/" target="_blank" id="link">marrit.ru</a></li>
+				<li><a href="https://ergohumanshop.ru/" target="_blank" id="link">ergohumanshop.ru</a></li>
 			</ul>
 		<h2><a name="edu">📚 Education</a></h2>
 			<ul>
-				<li><a href="https://mtuci.ru/?lang=en" target="_blank">Moscow Technical University Of Communications And Informatics</a></li>
-				<li><a href="https://edu.bmstu.ru/napravleniya-obucheniya/programmirovanie-i-it/html-i-css-uroven-1-sozdanie-saytov-na-html-5-i-sss-3/" target="_blank">HTML and CSS. Level 1</li>
-				<li><a href="https://www.udemy.com/course/web-figma-ui/" target="_blank">Figma Web Design 2022. UX/UI Basics</a></li>
+				<li><a href="https://mtuci.ru/?lang=en" target="_blank" id="link">Moscow Technical University Of Communications And Informatics</a></li>
+				<li><a href="https://edu.bmstu.ru/napravleniya-obucheniya/programmirovanie-i-it/html-i-css-uroven-1-sozdanie-saytov-na-html-5-i-sss-3/" target="_blank" id="link">HTML and CSS. Level 1</a></li>
+				<li><a href="https://www.udemy.com/course/web-figma-ui/" target="_blank" id="link">Figma Web Design 2022. UX/UI Basics</a></li>
 			</ul>
 		<h2><a name="skills">🛠️ Skills</a></h2>
 			<ul>
-				<li>Web-development: HTML5, CSS3</li>
-				<li>Version control: Basics of GIT, Github</li>
-				<li>Graphics: Figma, Photoshop</li>
-				<li>SEO: Google Search Engine, Yandex Search Engine</li>
+				<li><b>Web-development:</b> HTML5, CSS3</li>
+				<li><b>Version control:</b> Basics of GIT, Github</li>
+				<li><b>Graphics:</b> Figma, Photoshop</li>
+				<li><b>SEO:</b> Google Search Engine, Yandex Search Engine</li>
 			</ul>
 		<h2><a name="code">📝 Code</a></h2>
-
+		<div class="code">
+		<pre>
+			<code>
+hr {
+	border: none;
+	background-color: gray;
+	color: gray;
+	height: 1px;
+	width: 45em;
+	}
+			</code>
+		</pre>
+		</div>
 		<h2><a name="lang">🙊 Languages</a></h2>
 			<ul>
-				<li>English — Intermediate</li>
-				<li>Russian — Native</li>
+				<li><b>English</b> — Intermediate</li>
+				<li><b>Russian</b> — Native</li>
 			</ul>
+		</div>
 	</main>
+	<hr>
 	<footer>
-		<p>©2022 Alexander Egorov.</p>
-		<a href="https://rs.school/js-stage0/"><img src="./assets/rsschool.svg" alt="«JavaScript/Front-end. Stage 0»" style="width: 5em;"></a>
+		<div class="container">
+			<div class="footer">
+				<p>©2022 <a href="https://github.com/neon071" target="_blank" id="link">Github</a></p>
+				<a href="https://rs.school/js-stage0/"><img src="./assets/rsschool.svg" alt="«JavaScript/Front-end. Stage 0»" style="width: 5em;"></a>
+			</div>
+		</div>
 	</footer>
 </html>
