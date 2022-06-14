@@ -53,12 +53,12 @@ hr {
   height: 1px;
   width: 45em;
 }
-#link {
+.link {
   text-decoration: none;
   color: darkblue;
 
 }
-#link:hover {
+.link:hover {
   text-decoration: underline;
   color: red;
 }
